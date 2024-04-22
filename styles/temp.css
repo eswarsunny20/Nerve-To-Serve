@@ -1,0 +1,149 @@
+body,html {
+    height: 100%;
+    margin: 0;
+    font-style: italic;
+    color: white;
+  }
+  
+  .backgroundPic {
+    background-image: url("../images/one.jpg");
+    height: 120%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  nav ul {
+    margin-top: 0;
+    margin-left: 10px;
+    padding-left: 0;
+    list-style-type: circle;
+    position: relative;
+    color: rgb(245, 240, 240);
+  }
+  
+  nav li {
+    display: inline;
+    margin: 10px;
+    font-weight: bold;
+    color: #fcf9f9;
+  }
+  
+  nav li a {
+    color: white;
+  }
+  
+  .mainHeading {
+    text-align: center;
+    margin-top: 70px;
+    text-size-adjust: 100%;
+    font-size: 80px;
+  }
+  
+  .text-line {
+    background-color: unset;
+    color: #eeeeee;
+    outline: none;
+    outline-style: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    width: 200px;
+    border-bottom: solid #eeeeee 2px;
+    padding: 20px 100px;
+  }
+  
+  .fields {
+    display: list-item;
+    list-style: none;
+    margin: auto;
+    width: 30%;
+    padding: 10px;
+  }
+  
+  .fieldLabel {
+    margin-top: 50px;
+  }
+  
+  .orderButton {
+    background-color: #04aa6d;
+    color: white;
+    padding: 14px 20px;
+    border: none;
+    cursor: pointer;
+    width: 23%;
+    display: block;
+    text-align: center;
+    display: block;
+    margin: auto;
+    margin-top: 8px;
+    margin-left: 700px;
+  }
+  
+  .container button:hover {
+    background-color: greenyellow;
+    color: grey;
+  }
+  
+  fieldset{
+    text-align: center;
+  }
+  .counterBox {
+    display: block;
+    text-align: center;
+  }
+  
+  .defaultTextBox {
+    padding: 0px;
+    height: 30px;
+    position: relative;
+    left: 0;
+    outline: none;
+    margin-top: 10px;
+    border: 1px solid #cdcdcd;
+    border-color: rgba(0, 0, 0, 0.15);
+    background-color: white;
+    font-size: 16px;
+  }
+
+  .order-buttons {
+    display: inline-block;
+    margin-inline-end: 60px;
+  }
+  
+  .order-buttons button {
+    background-color: green;
+    color: honeydew;
+    text-align: center;
+    width: 90px;
+    height: 60px;
+    font-size: 30px;
+    float: right;
+  }
+  .order-buttons button:hover {
+    background-color: greenyellow;
+    color: grey;
+  }
+
+  .donationPictureRight{
+    float: right;
+    width: 640px;
+    height: 500px;
+  }
+  .donationPictureLeft{
+    float: left;
+    width: 640px;
+    height: 500px;
+  }
+
+  footer{
+    background-image: linear-gradient(to left, rgb(233, 233, 216),rgb(194, 140, 40),rgb(43, 29, 3));
+    height: 100px;
+    margin-top: 20px;
+    text-align: center;
+    border-style: solid;
+    border-width: 5px;
+    padding-bottom: 30px;
+    padding-top: 10px;
+    position: relative;
+}

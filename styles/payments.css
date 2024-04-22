@@ -1,0 +1,253 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  text-decoration: none;
+   font-family: 'Josefin Sans', sans-serif;
+}
+
+body{
+  background: url("bg.jpg") no-repeat center center;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+}
+
+.logo-image{
+    height: 50px;
+    float: left;
+    border-radius: 50%;
+    padding-left: 10px;
+}
+
+.header {
+    overflow: hidden;
+    background-color: unset;
+    padding: 20px 10px;
+}
+
+.header_items {
+    margin-right: 1rem;
+
+}
+
+.header a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 4px;
+}
+
+.page-header {
+    background-color: currentcolor;
+    
+}
+
+.page-header a {
+    color: white;
+}
+
+.header a.logo {
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Pacifico', cursive;
+    font-weight: 600;
+    font-size: 2.5rem;
+    font-family: 'Lucida Handwriting', sans-serif;
+}
+
+.header a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+
+.header a.active {
+    background-color: black;
+    color: white;
+}
+
+.page-header a.active {
+    background-color: lavender;
+    color: black;
+}
+
+.header-right {
+    float: right;
+}
+
+.icons {
+    text-align: left;
+    margin-top: 1rem;
+}
+
+
+.wrapper{
+  width: 500px;
+  height: 350px;
+  margin: auto;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+.checkout_wrapper{
+  width: 500px;
+  height: 350px;
+  display: flex;
+}
+
+.checkout_wrapper .product_info{
+  width: 45%;
+  background: #e85c4d;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  position: relative;
+}
+
+.checkout_wrapper .product_info img{
+  width: 240px;
+  padding-top: 5rem;
+  margin-top: 30px;
+}
+
+.checkout_wrapper .checkout_form{
+  width: 55%;
+  background: #fff;
+  padding: 50px 30px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.checkout_wrapper .product_info .content{
+  text-align: center;
+  margin-top: 25px;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.checkout_wrapper .product_info .content h3{
+  font-size: 18px;
+  line-height: 18px;
+  letter-spacing: 3px;
+}
+
+.checkout_wrapper .product_info .content p{
+  margin-top: 10px;
+  font-size:14px;
+}
+
+.checkout_form p{
+  margin-bottom: 25px;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+.checkout_form .details .section{
+  margin-bottom: 15px;
+}
+
+.checkout_form .details .section input[type="text"]{
+  width: 100%;
+  padding: 10px;
+  border: 2px solid #dddddd;
+}
+
+.checkout_form .details .section input[type="text"]:focus{
+  border: 2px solid #e85c4d;
+}
+
+.checkout_form .details .section.last_section{
+  display: flex;
+  justify-content: space-between;
+}
+
+.checkout_form .details .section.last_section .item{
+  width: 48%;
+}
+
+.checkout_form .details .btn{
+  background: #e85c4d;
+  padding: 10px;
+  border-radius: 25px;
+  text-align: center;
+  margin-top: 25px;
+}
+
+.checkout_form .details .btn a{
+  color: #fff;
+  letter-spacing: 5px;
+  display: block;
+}
+
+
+footer{
+    height: auto;
+    width: 100%;
+    background-color: black;
+    align-items: center;
+  }
+  
+  .footer .col {
+    width: 190px;
+    height: auto;
+    float: left;
+  }
+  
+  .footer .col h1 {
+    margin: 0;
+    padding: 0;
+    font-family: inherit;
+    font-size: 12px;
+    line-height: 17px;
+    padding: 20px 0px 5px 0px;
+    color: rgba(15, 8, 8, 0.2);
+    font-weight: normal;
+    text-transform: uppercase;
+    letter-spacing: 0.250em;
+  }
+  
+  .footer .col ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .footer .col ul li {
+    color: #999999;
+    font-size: 14px;
+    font-family: inherit;
+    font-weight: bold;
+    padding: 5px 0px 5px 0px;
+    cursor: pointer;
+  }
+  
+  .social ul li {
+    display: inline-block;
+  }
+  
+  .clearfix {
+    clear: both;
+  }
+  
+  .footer-text-content{
+    text-align: center;
+    padding-top: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+  }
+  
+  .footer-text-content p{
+    font-size: 1.255rem;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  .flex-contain{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
